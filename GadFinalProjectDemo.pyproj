@@ -72,14 +72,10 @@
     <Content Include="GadFinalProjectDemo\static\Pics\tichonet.png" />
     <Content Include="GadFinalProjectDemo\static\Pics\under_construction.png" />
     <Content Include="GadFinalProjectDemo\templates\DataModel.html" />
-    <Content Include="GadFinalProjectDemo\templates\DataSet3.html" />
-    <Content Include="GadFinalProjectDemo\templates\DataSet2.html" />
     <Content Include="GadFinalProjectDemo\templates\DataSet1.html" />
-    <Content Include="GadFinalProjectDemo\templates\forms_demo.html" />
     <Content Include="GadFinalProjectDemo\templates\login.html" />
     <Content Include="GadFinalProjectDemo\templates\PictureAlbum.html" />
     <Content Include="GadFinalProjectDemo\templates\DataQuery.html" />
-    <Content Include="GadFinalProjectDemo\templates\plot_demo.html" />
     <Content Include="GadFinalProjectDemo\templates\register.html" />
     <Content Include="requirements.txt" />
     <Content Include="GadFinalProjectDemo\static\content\bootstrap.css" />

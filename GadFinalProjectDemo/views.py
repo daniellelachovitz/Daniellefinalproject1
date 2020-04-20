@@ -1,10 +1,9 @@
 """
-Project by: Gad Lidror (Demo)
+Project by: Danielle Lachovitz
 Date: TASHAP
 Grade: 10th grade, Tichonet
 
-This file include all the redirections of the different pages, and thier routs
-It has most of the logic of the project, written in Python, under Flask, WTF and more
+Routes and views for the flask application.
 """
 from GadFinalProjectDemo import app
 
@@ -76,9 +75,9 @@ def home():
 def contact():
     return render_template(
         'contact.html',
-        title='Gad Lidror',
+        title='Danielle Lachovitz',
         year=datetime.now().year,
-        message='Teacher, Tichonet'
+        message='Stident, Tichonet'
     )
 
 # About Page
@@ -86,8 +85,8 @@ def contact():
 def about():
     return render_template(
         'about.html',
-        title='Demo for 10th grade internal CS project, Data Science',
-        message='This project demonstrate analyzis of imagynary UFO testemonials',
+        title='About The Project',
+        message='The project is a year-end final project within the framework of the "data science" course',
         year=datetime.now().year
      
     )
@@ -143,9 +142,9 @@ def Login():
 def DataModel():
     return render_template(
         'DataModel.html',
-        title='This is my Data Model page abou UFO',
+        title='This is my Data Model page about Covid19 Cases',
         year=datetime.now().year,
-        message='In this page we will display the datasets we are going to use in order to answer ARE THERE UFOs'
+        message='On this page, we will describe the data page with the number of the Covid19 cases'
     )
 
 
