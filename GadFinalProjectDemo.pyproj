@@ -80,9 +80,7 @@
     <Content Include="GadFinalProjectDemo\templates\PictureAlbum.html" />
     <Content Include="GadFinalProjectDemo\templates\DataQuery.html" />
     <Content Include="GadFinalProjectDemo\templates\plot_demo.html" />
-    <Content Include="GadFinalProjectDemo\templates\project_resources.html" />
     <Content Include="GadFinalProjectDemo\templates\register.html" />
-    <Content Include="GadFinalProjectDemo\templates\tracking_changes.html" />
     <Content Include="requirements.txt" />
     <Content Include="GadFinalProjectDemo\static\content\bootstrap.css" />
     <Content Include="GadFinalProjectDemo\static\content\bootstrap.min.css" />
