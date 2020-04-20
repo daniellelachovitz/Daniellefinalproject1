@@ -1,0 +1,50 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+ {
+    <body style="background-color:gainsboro;">
+        <div class="largetron" style="background-color: lavender">
+
+
+            <div class="d-flex flex-row-reverse bg-secondary">
+                <h1 style="text-align:center" ;>Data Model</h1>
+            </div>
+        
+        <h4 class="heb" style="text-align:center" ;>On this page, we will describe the data page with the number of the Covid19 cases</h4>
+        <h3></h3>
+
+        <td>
+            <img src="https://images1.calcalist.co.il/PicServer3/2020/03/22/979148/Screenshot_20200321-223346_DriveL.jpg" width="250" height="200">
+
+        </td>
+        <td>
+            <img src="https://d3m9l0v76dty0.cloudfront.net/system/photos/4693190/large/a073f0c67403eb5fb9e69bed675e7052.jpg" width="250" height="200">
+
+        </td>
+        <td>
+            <img src="https://images1.calcalist.co.il/PicServer3/2020/03/15/977713/golan-180220-433_950914_l.jpg" width="250" height="200">
+
+        </td>
+        <td>
+            <img src="https://www.ynet.co.il/PicServer5/2020/03/17/9852215/985220401001599640360no.jpg" width="250" height="200">
+
+        </td>
+
+        <br />
+        <br />
+        <br />
+        <div class="row my-grid-borders">
+            <div class="col-md-5 my-grid-borders"><a href="{{ url_for('DataSet1') }}" style="font-size:large" ;>DataSet</a></div>
+            <div class="col-md-5 my-grid-borders">
+                <h2 ckass="heb" style="text-align:left" ;>Covid19 cases</h2>
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+        </div>
+        }
+
+
+        {% endblock %}
