@@ -44,7 +44,6 @@ from GadFinalProjectDemo.Models.FormStructure import UserRegistrationFormStructu
 from GadFinalProjectDemo.Models.FormStructure import ExpandForm
 from GadFinalProjectDemo.Models.FormStructure import CollapseForm
 from GadFinalProjectDemo.Models.FormStructure import SinglePresidentForm
-from GadFinalProjectDemo.Models.FormStructure import AllOfTheAboveForm
 from GadFinalProjectDemo.Models.FormStructure import Covid19DayRatio
 
 from GadFinalProjectDemo.Models.DataQuery     import plot_to_img
